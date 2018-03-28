@@ -11,7 +11,7 @@ const cors = require('cors');
 
 
 // DB Setup
-mongoose.connect('mongodb://localhost:auth/auth');
+mongoose.connect('mongodb://abc:abc@ds123799.mlab.com:23799/abc');
 
 // App Setup
 app.use(morgan('combined'));
